@@ -1,0 +1,40 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SetExerciseTest.java",
+      "testCases": [
+        {
+          "methodName": "createSetTest",
+          "label": "Verify a new set is instantiated correctly",
+          "description": "Checks that createSet() returns a non-null Set instance."
+        },
+        {
+          "methodName": "getSizeTest",
+          "label": "Verify a new set starts with size 0",
+          "description": "Checks that getSize() returns 0 for a newly created empty set."
+        },
+        {
+          "methodName": "getSizeTest2",
+          "label": "Verify adding one item updates set size to 1",
+          "description": "Adds one unique item and verifies getSize() returns 1."
+        },
+        {
+          "methodName": "addItemTest1",
+          "label": "Verify the set contains an added item",
+          "description": "Adds a single item to the set and verifies it is present while another value is not."
+        },
+        {
+          "methodName": "addItemTest2",
+          "label": "Verify the set contains multiple added items",
+          "description": "Adds two items and verifies both values are present in the set."
+        },
+        {
+          "methodName": "removeItemTest1",
+          "label": "Verify removing an item updates the set correctly",
+          "description": "Adds two items, removes one, and verifies the removed item is gone while the other remains."
+        }
+      ]
+    }
+  ]
+}
